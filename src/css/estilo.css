@@ -1,0 +1,61 @@
+html {
+    background-image: url(../img/bg-repeat.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container1 {
+    width: 300px;
+    height: 111px;
+}
+
+.container1 .titulo1 {
+    font-weight: 900;
+    font-size: 20px;
+    width: 300px;
+    height: 55px;
+    margin-bottom: 15px;
+}
+
+.container1 .paragrafo1 {
+    writing-mode: 300px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.form {
+    background-color: #FFFFFF;
+    color: #000000;
+    display: flex;
+    width: 340px;
+    height: 380px;
+    margin-left: 60px;
+    border: solid 1px #000000;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form .informacao {
+    width: 300px;
+    height: 35px;
+    border: solid 1px #000000;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: #000000;
+}
+
+.form .informacao.texto {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+}
