@@ -5,57 +5,94 @@ html {
     background-size: 100% 100vh;
 }
 
-section {
+main {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-size: 15px;
 }
 
 .container1 {
     width: 300px;
     height: 111px;
+    color: #FFFFFF;
+    padding: 20px;
 }
+
 
 .container1 .titulo1 {
     font-weight: 900;
     font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.container1 .container-paragrafo {
     width: 300px;
     height: 55px;
-    margin-bottom: 15px;
 }
 
 .container1 .paragrafo1 {
     writing-mode: 300px;
     height: 55px;
-    font-weight: 400;
     font-size: 15px;
+    line-height: 100%;
 }
 
-.form {
+.container-form {
     background-color: #FFFFFF;
-    color: #000000;
     display: flex;
     width: 340px;
     height: 380px;
     margin-left: 60px;
-    border: solid 1px #000000;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
 }
 
-.form .informacao {
+.container-form .campo {
+    margin-bottom: 15px;
+}
+.container-form .informacao {
     width: 300px;
     height: 35px;
     border: solid 1px #000000;
     border-radius: 5px;
-    margin-top: 20px;
     padding-left: 10px;
-    color: #000000;
 }
 
-.form .informacao.texto {
-    width: 300px;
+
+.container-form .obrigatorio {
+    display: none;
+    color: #FF0000;
+    font-size: 8px;
+    margin-right: 230px;
+}
+
+.container-form .informacao.texto {
     height: 100px;
+    padding: 10px;
+}
+
+.container-form .paragrafo2 {
+    font-weight: 400;
+    margin-right: 155px;
+    margin-bottom: 5px;
+}
+
+.container-form .enviar {
+    border: none;
+    width: 300px;
+    height: 40px;
     border-radius: 5px;
+    background-color: #3CCC87;
+    color: #FFFFFF; 
+}
+
+.container-form .borda-verde {
+    border: solid 1px #3CCC87;
+}
+
+.container-form .borda-vermelha {
+    border: solid 1px #FF0000;
 }
